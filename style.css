@@ -1,0 +1,80 @@
+html {
+background-color: #fff
+}
+
+header{
+  grid-area: header;
+}
+
+nav{
+  grid-area: nav;
+}
+
+main{
+  grid-area: main;
+}
+
+h1{
+  color: #1f1d1d;
+  font-family: Quicksand;
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+body{
+  display:grid;
+  grid-template-columnns: 1fr 1fr;
+  grid-template-areas:
+  "header header"
+  "nav nav"
+  "main main"
+
+
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #1f1d1d;
+}
+
+li{
+float: left;
+}
+
+li a: hover{
+  background-color: ;
+}
+
+section{
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  g
+
+}
+li a{
+  display: block;
+  color: #faf7f7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Quicksand;
+}
+
+.active{
+  background-color: #1f1d1d;
+}
+
+div.wrapper{
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+h2{
+  padding-top: 80px;
+  font-family: Comfortaa;
+  font-size: 35px;
+}
